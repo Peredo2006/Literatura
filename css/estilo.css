@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    background-color: #593119;
+    color: #f2f2f2;
+    text-align: center;
+    height: 180px;
+}
+.cabecalho h1{
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+body{
+    background-color: #a66b38;
+}
+.cabecalho a{
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.cabecalho a:hover{
+    padding: 5px;
+    background-color: #a66b38;
+    border-radius: 10%;
+    font-size: 24px;
+}
+.postageminício{
+    background-color: #593119;
+    width: 700px;
+    margin-top: 50px;
+    text-align: center;
+    color: #f2f2f2;
+    border-radius:5% ;
+}
+.postageminício img{
+    border-radius: 10%;
+}
+.postageminício h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2f2f2;
+}
+#autoria{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imglaterais{
+    margin-top: 60px;
+}
+.imglaterais img{
+    border-radius:10% ;
+    border: 5px solid #f2f2f2;
+    margin-bottom: 30px;
+}
+.rodape{
+    float: inline-end;
+    margin-top: 60px;
+    background-color: #593119;
+    color: #f2f2f2;
+    font-size: 20px;
+    text-align: center;
+    height: 70px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.duplas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.livros{
+    width: 600px;
+    background-color: #593119;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 30px;
+    color: #f2f2f2;
+    margin: 20px 15px 25px 15px;
+}
+img{
+    margin-bottom: 20px;
+}
+.autores{
+    width: 800px;
+    background-color: #593119;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.containerautores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
